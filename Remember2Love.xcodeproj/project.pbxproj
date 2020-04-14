@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28CE21CE24453EAC0058DA21 /* StateOfAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE21CD24453EAC0058DA21 /* StateOfAR.swift */; };
+		28CE21D024453EED0058DA21 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE21CF24453EED0058DA21 /* FaceViewController.swift */; };
+		28CE21D224453EF40058DA21 /* Contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 28CE21D124453EF40058DA21 /* Contacts.json */; };
+		28CE21D424453EFD0058DA21 /* FaceRecognitionFinal3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 28CE21D324453EFD0058DA21 /* FaceRecognitionFinal3.mlmodel */; };
+		28CE21D824453F040058DA21 /* Remember2LoveTeam.png in Resources */ = {isa = PBXBuildFile; fileRef = 28CE21D524453F040058DA21 /* Remember2LoveTeam.png */; };
+		28CE21D924453F040058DA21 /* SystemsOverview.png in Resources */ = {isa = PBXBuildFile; fileRef = 28CE21D624453F040058DA21 /* SystemsOverview.png */; };
+		28CE21DA24453F040058DA21 /* Remember2LoveBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 28CE21D724453F040058DA21 /* Remember2LoveBackground.png */; };
+		28CE21DC24453F0A0058DA21 /* SCNVector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE21DB24453F0A0058DA21 /* SCNVector3.swift */; };
+		28CE21DE24453F120058DA21 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE21DD24453F120058DA21 /* ViewModel.swift */; };
+		28CE21E024453F1F0058DA21 /* remember2love.png in Resources */ = {isa = PBXBuildFile; fileRef = 28CE21DF24453F1F0058DA21 /* remember2love.png */; };
+		E853F0FD24443526001C42F4 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E853F0FC24443526001C42F4 /* Inceptionv3.mlmodel */; };
+		EC95458A24442F65007DDB35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC95458924442F65007DDB35 /* AppDelegate.swift */; };
+		EC95458E24442F65007DDB35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC95458D24442F65007DDB35 /* ViewController.swift */; };
+		EC95459124442F65007DDB35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC95458F24442F65007DDB35 /* Main.storyboard */; };
+		EC95459324442F66007DDB35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC95459224442F66007DDB35 /* Assets.xcassets */; };
+		EC95459624442F66007DDB35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC95459424442F66007DDB35 /* LaunchScreen.storyboard */; };
+		EC9545A124442FB6007DDB35 /* ScreenRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC95459F24442FB5007DDB35 /* ScreenRecorder.swift */; };
+		EC9545A224442FB6007DDB35 /* R2LFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9545A024442FB5007DDB35 /* R2LFile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28CE21CD24453EAC0058DA21 /* StateOfAR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateOfAR.swift; sourceTree = "<group>"; };
+		28CE21CF24453EED0058DA21 /* FaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FaceViewController.swift; path = "../../Remember2Love Facial Recognition/Remember2Love/FaceViewController.swift"; sourceTree = "<group>"; };
+		28CE21D124453EF40058DA21 /* Contacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contacts.json; sourceTree = "<group>"; };
+		28CE21D324453EFD0058DA21 /* FaceRecognitionFinal3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FaceRecognitionFinal3.mlmodel; sourceTree = "<group>"; };
+		28CE21D524453F040058DA21 /* Remember2LoveTeam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Remember2LoveTeam.png; sourceTree = "<group>"; };
+		28CE21D624453F040058DA21 /* SystemsOverview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SystemsOverview.png; sourceTree = "<group>"; };
+		28CE21D724453F040058DA21 /* Remember2LoveBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Remember2LoveBackground.png; sourceTree = "<group>"; };
+		28CE21DB24453F0A0058DA21 /* SCNVector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNVector3.swift; sourceTree = "<group>"; };
+		28CE21DD24453F120058DA21 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		28CE21DF24453F1F0058DA21 /* remember2love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remember2love.png; sourceTree = "<group>"; };
+		E853F0FC24443526001C42F4 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		EC95458624442F65007DDB35 /* Remember2Love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remember2Love.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC95458924442F65007DDB35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC95458D24442F65007DDB35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC95459024442F65007DDB35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC95459224442F66007DDB35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC95459524442F66007DDB35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC95459724442F66007DDB35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC95459F24442FB5007DDB35 /* ScreenRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenRecorder.swift; sourceTree = "<group>"; };
+		EC9545A024442FB5007DDB35 /* R2LFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R2LFile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC95458324442F65007DDB35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28CE21E124453F290058DA21 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				28CE21D724453F040058DA21 /* Remember2LoveBackground.png */,
+				28CE21D524453F040058DA21 /* Remember2LoveTeam.png */,
+				28CE21D624453F040058DA21 /* SystemsOverview.png */,
+				28CE21DF24453F1F0058DA21 /* remember2love.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		28CE21E224453F3F0058DA21 /* coreML Models */ = {
+			isa = PBXGroup;
+			children = (
+				E853F0FC24443526001C42F4 /* Inceptionv3.mlmodel */,
+				28CE21D324453EFD0058DA21 /* FaceRecognitionFinal3.mlmodel */,
+			);
+			path = "coreML Models";
+			sourceTree = "<group>";
+		};
+		EC95457D24442F65007DDB35 = {
+			isa = PBXGroup;
+			children = (
+				EC95458824442F65007DDB35 /* Remember2Love */,
+				EC95458724442F65007DDB35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC95458724442F65007DDB35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC95458624442F65007DDB35 /* Remember2Love.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC95458824442F65007DDB35 /* Remember2Love */ = {
+			isa = PBXGroup;
+			children = (
+				28CE21E224453F3F0058DA21 /* coreML Models */,
+				28CE21E124453F290058DA21 /* Images */,
+				EC95458924442F65007DDB35 /* AppDelegate.swift */,
+				28CE21CF24453EED0058DA21 /* FaceViewController.swift */,
+				EC95458D24442F65007DDB35 /* ViewController.swift */,
+				EC9545A024442FB5007DDB35 /* R2LFile.swift */,
+				28CE21CD24453EAC0058DA21 /* StateOfAR.swift */,
+				28CE21DB24453F0A0058DA21 /* SCNVector3.swift */,
+				EC95459F24442FB5007DDB35 /* ScreenRecorder.swift */,
+				28CE21DD24453F120058DA21 /* ViewModel.swift */,
+				EC95458F24442F65007DDB35 /* Main.storyboard */,
+				EC95459424442F66007DDB35 /* LaunchScreen.storyboard */,
+				EC95459224442F66007DDB35 /* Assets.xcassets */,
+				28CE21D124453EF40058DA21 /* Contacts.json */,
+				EC95459724442F66007DDB35 /* Info.plist */,
+			);
+			path = Remember2Love;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC95458524442F65007DDB35 /* Remember2Love */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC95459A24442F66007DDB35 /* Build configuration list for PBXNativeTarget "Remember2Love" */;
+			buildPhases = (
+				EC95458224442F65007DDB35 /* Sources */,
+				EC95458324442F65007DDB35 /* Frameworks */,
+				EC95458424442F65007DDB35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Remember2Love;
+			productName = Remember2Love;
+			productReference = EC95458624442F65007DDB35 /* Remember2Love.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC95457E24442F65007DDB35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Karan Sabharwal";
+				TargetAttributes = {
+					EC95458524442F65007DDB35 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = EC95458124442F65007DDB35 /* Build configuration list for PBXProject "Remember2Love" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC95457D24442F65007DDB35;
+			productRefGroup = EC95458724442F65007DDB35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC95458524442F65007DDB35 /* Remember2Love */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC95458424442F65007DDB35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CE21D224453EF40058DA21 /* Contacts.json in Resources */,
+				28CE21D924453F040058DA21 /* SystemsOverview.png in Resources */,
+				EC95459624442F66007DDB35 /* LaunchScreen.storyboard in Resources */,
+				28CE21E024453F1F0058DA21 /* remember2love.png in Resources */,
+				28CE21DA24453F040058DA21 /* Remember2LoveBackground.png in Resources */,
+				28CE21D824453F040058DA21 /* Remember2LoveTeam.png in Resources */,
+				EC95459324442F66007DDB35 /* Assets.xcassets in Resources */,
+				EC95459124442F65007DDB35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC95458224442F65007DDB35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CE21DE24453F120058DA21 /* ViewModel.swift in Sources */,
+				E853F0FD24443526001C42F4 /* Inceptionv3.mlmodel in Sources */,
+				28CE21D024453EED0058DA21 /* FaceViewController.swift in Sources */,
+				28CE21D424453EFD0058DA21 /* FaceRecognitionFinal3.mlmodel in Sources */,
+				EC95458E24442F65007DDB35 /* ViewController.swift in Sources */,
+				EC9545A124442FB6007DDB35 /* ScreenRecorder.swift in Sources */,
+				EC95458A24442F65007DDB35 /* AppDelegate.swift in Sources */,
+				EC9545A224442FB6007DDB35 /* R2LFile.swift in Sources */,
+				28CE21CE24453EAC0058DA21 /* StateOfAR.swift in Sources */,
+				28CE21DC24453F0A0058DA21 /* SCNVector3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC95458F24442F65007DDB35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC95459024442F65007DDB35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC95459424442F66007DDB35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC95459524442F66007DDB35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC95459824442F66007DDB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC95459924442F66007DDB35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC95459B24442F66007DDB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 436TP54S8M;
+				INFOPLIST_FILE = Remember2Love/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Remember2Love;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC95459C24442F66007DDB35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 436TP54S8M;
+				INFOPLIST_FILE = Remember2Love/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Remember2Love;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC95458124442F65007DDB35 /* Build configuration list for PBXProject "Remember2Love" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC95459824442F66007DDB35 /* Debug */,
+				EC95459924442F66007DDB35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC95459A24442F66007DDB35 /* Build configuration list for PBXNativeTarget "Remember2Love" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC95459B24442F66007DDB35 /* Debug */,
+				EC95459C24442F66007DDB35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC95457E24442F65007DDB35 /* Project object */;
+}
